@@ -1,0 +1,32 @@
+<div class ="general">
+
+
+<header>
+  <nav>
+    <div routerLink = ""   class="logo">
+        <img src="../assets/img/logo.png" alt="">
+    </div>
+    <div class="icono" id="icono">
+        <span>&#9776;</span>
+
+    </div>
+    <div class="enlaces uno" id="enlaces">
+     <a routerLink= "" class="active text-light">Inicio</a>
+     <a routerLink="about" class="active text-light">Conoceme!</a>  
+</div>
+</nav>
+</header>
+
+<main role="main">
+  <div class="container-fluid"><router-outlet></router-outlet></div>
+  
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <div class="footer fixed-bottom text-center text-muted ">
+      <small class="text-light">Universidad Veracruzana. Todos los derechos reservados.  &copy; 2022</small>
+    </div>
+  </footer>
+</main>
+<router-outlet></router-outlet>
+</div>
